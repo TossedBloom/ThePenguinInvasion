@@ -1,0 +1,103 @@
+:root {
+    --peng-cream: #F4FFF8;
+    --peng-yellow: #F2F3AE;
+    --peng-blue-light: #12355B;
+    --peng-blue: #020122;
+    --peng-red: #C14953;
+}
+
+.section-red {
+    background-color: var(--peng-red);
+    color: var(--peng-blue);
+}
+
+.section-red h2 {
+    text-shadow: 2px 2px var(--peng-yellow);
+}
+
+.section-red i:hover {
+    color: var(--peng-yellow);
+}
+
+.section-yellow {
+    background-color: var(--peng-yellow);
+    color: var(--peng-blue);
+}
+
+.section-yellow h2 {
+    text-shadow: 2px 2px var(--peng-red);
+}
+
+.section-yellow i:hover {
+    color: var(--peng-yellow-red);
+}
+
+.section-blue {
+    background-color: var(--peng-blue);
+    color: var(--peng-yellow);
+}
+
+.section-blue h2 {
+    text-shadow: 2px 2px var(--peng-blue-light);
+}
+
+.section-blue i:hover {
+    color: var(--peng-red);
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h1 {
+    font-size: 6rem !important;
+}
+
+h2 {
+    font-size: 3rem !important;
+}
+
+h3 {
+    font-size: 1.7rem !important;
+}
+
+header {
+    height: 90vh;
+}
+
+header h1 {
+    text-shadow: 2px 2px var(--peng-red);
+}
+
+header p {
+    text-shadow: 2px 2px var(--peng-red);
+}
+
+.custom-popover .popover-header {
+    color: var(--peng-blue);
+    background: var(--peng-red);
+    border-bottom:  1.5px solid var(--peng-blue-light);
+}
+
+.custom-popover .popover-body {
+    color: var(--peng-blue);
+    background: var(--peng-yellow);
+}
+
+.custom-popover.popover {
+    border: 1.5px solid var(--peng-blue-light);
+    font-weight: bold;
+}

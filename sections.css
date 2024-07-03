@@ -1,0 +1,40 @@
+@import url('app.css');
+
+section {
+    min-height: 80vh;
+}
+
+img.header-penguin {
+    right: 5%;
+    z-index: 1;
+    max-width: 515px;
+}
+
+@media (min-width: 1400px) { 
+    img.header-penguin {
+        right: 10%;
+    }
+}
+
+
+.header-text {
+    z-index: 2;
+}
+
+.header-text p {
+    font-size: 2rem !important;
+}
+
+.section-text a {
+    color: inherit;
+}
+
+.penguin-army img {
+    width: 17%;
+}
+
+@media (min-width: 768px) { 
+    .penguin-army img {
+        width: 9%;
+    }
+}
